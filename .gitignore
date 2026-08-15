@@ -1,0 +1,101 @@
+# ==============================
+# Spring Boot / Maven
+# ==============================
+
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+
+# ==============================
+# IntelliJ IDEA
+# ==============================
+
+.idea/
+*.iws
+*.iml
+*.ipr
+
+
+# ==============================
+# Eclipse / STS
+# ==============================
+
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+
+# ==============================
+# NetBeans
+# ==============================
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+
+# ==============================
+# Build
+# ==============================
+
+build/
+
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+
+# ==============================
+# OS Files
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

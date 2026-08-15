@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: hisabkitab-backend
+
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/hisabkitab
+#    username: root
+#    password: Bhoma@0506
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8080
+  address: 0.0.0.0
+
+jwt:
+  secret: ${JWT_SECRET}
