@@ -1,0 +1,26 @@
+package com.hisabkitab.backend.notification.domain;
+
+public enum NotificationType {
+
+    ORGANIZATION_APPROVED,
+
+    ORGANIZATION_REJECTED,
+
+    MEMBERSHIP_REQUEST,
+
+    MEMBERSHIP_APPROVED,
+
+    MEMBERSHIP_REJECTED,
+
+    ORGANIZATION_INVITATION,
+
+    ORDER_ASSIGNED,
+
+    ORDER_COMPLETED,
+
+    PAYMENT_RECEIVED,
+
+    CUSTOMER_CREATED,
+
+    GENERAL
+}
